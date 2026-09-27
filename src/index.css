@@ -41,6 +41,47 @@
   --color-heat-badge-bg: #1f1500;
   --color-danger-soft-bg: #2d0a0a;
   --native-color-scheme: dark;
+
+  /* ── 현장 관리자 메인(리디자인) 전용 토큰 · 다크 ── */
+  --home-sidebar-bg: #0d1014;
+  --home-main-bg: #0a0c0f;
+  --home-nav-active-bg: rgba(40, 121, 234, 0.14);
+  --home-nav-active-fg: #5b9cf5;
+  --home-search-bg: #111418;
+  --home-search-border: #1a1f26;
+  --home-card-bg: #111418;
+  --home-card-border: #1a1f26;
+  --home-card-warm-bg: linear-gradient(90deg, #1a130a 0%, #111418 100%);
+  --home-mini-tile-bg: #0d1014;
+  --home-pill-bg: #1a1f26;
+  --home-pill-fg: #9aabb7;
+  --home-glow: rgba(255, 140, 60, 0.32);
+  --home-stat-blue-bg: rgba(40, 121, 234, 0.12);
+  --home-stat-blue-fg: #5b9cf5;
+  --home-stat-green-bg: rgba(74, 222, 128, 0.1);
+  --home-stat-green-fg: #4ade80;
+  --home-stat-purple-bg: rgba(139, 92, 246, 0.14);
+  --home-stat-purple-fg: #a78bfa;
+  --home-stat-red-bg: #2d0a0a;
+  --home-stat-red-fg: #ef4444;
+  --home-table-bg: #111418;
+  --home-table-border: #1a1f26;
+  --home-table-head: #3d4d5c;
+  --home-table-text: #9aabb7;
+  --home-table-value: #c5d0d8;
+  --home-table-time: #6b7f8e;
+  --home-table-more: #6b7f8e;
+  --home-date-pill-bg: #111418;
+  --home-date-fg: #c5d0d8;
+  --home-date-sub: #3d4d5c;
+  --home-btn-primary-bg: #2879ea;
+  --home-btn-border: #1a1f26;
+  --home-wave-1: rgba(40, 121, 234, 0.05);
+  --home-wave-2: rgba(40, 121, 234, 0.2);
+  --home-wave-3: rgba(40, 121, 234, 0.07);
+  --home-wave-4: rgba(40, 121, 234, 0.3);
+  --home-tagline: #3d4d5c;
+  --home-avatar-bg: #1a1f26;
 }
 
 [data-theme="light"] {
@@ -80,6 +121,47 @@
   --color-heat-badge-bg: #fffbeb;
   --color-danger-soft-bg: #fee2e2;
   --native-color-scheme: light;
+
+  /* ── 현장 관리자 메인(리디자인) 전용 토큰 · 라이트 (Figma 607:2) ── */
+  --home-sidebar-bg: #f3f5ff;
+  --home-main-bg: #f3f8ff;
+  --home-nav-active-bg: #eef2fd;
+  --home-nav-active-fg: #2563eb;
+  --home-search-bg: #f5f5f6;
+  --home-search-border: transparent;
+  --home-card-bg: #f9fbff;
+  --home-card-border: transparent;
+  --home-card-warm-bg: linear-gradient(90deg, #fdf6ee 0%, #faf9f6 100%);
+  --home-mini-tile-bg: #fffbf6;
+  --home-pill-bg: #ffffff;
+  --home-pill-fg: #66707a;
+  --home-glow: rgba(255, 150, 80, 0.55);
+  --home-stat-blue-bg: #edf4ff;
+  --home-stat-blue-fg: #2563eb;
+  --home-stat-green-bg: #e9f6ed;
+  --home-stat-green-fg: #16a34a;
+  --home-stat-purple-bg: #f4f1fe;
+  --home-stat-purple-fg: #7c3aed;
+  --home-stat-red-bg: #fdefef;
+  --home-stat-red-fg: #dc2626;
+  --home-table-bg: #f7f9ff;
+  --home-table-border: #efefef;
+  --home-table-head: #c6c3bc;
+  --home-table-text: #4a3f30;
+  --home-table-value: #2a1f10;
+  --home-table-time: #ffe1b1;
+  --home-table-more: #99999e;
+  --home-date-pill-bg: #f7f9ff;
+  --home-date-fg: #47474d;
+  --home-date-sub: #9e9c99;
+  --home-btn-primary-bg: #171c29;
+  --home-btn-border: #e3ddd4;
+  --home-wave-1: #e8f0ff;
+  --home-wave-2: #bcd3ff;
+  --home-wave-3: #d7e4ff;
+  --home-wave-4: #98b9f8;
+  --home-tagline: #999ea6;
+  --home-avatar-bg: #e6e8f0;
 }
 
 *, *::before, *::after {
