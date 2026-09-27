@@ -1,0 +1,62 @@
+[33mcommit 4a9415ac310d01eb576129be4f649d5c73c25d3d[m
+Author: (i1anzu) <(s26040@gsm.hs.kr)>
+Date:   Sat Sep 12 00:15:21 2026 +0900
+
+    feat :: 본사 관리자 화면 기본 구조 구현
+
+ .gitignore                                         |   22 [32m+[m
+ .oxlintrc.json                                     |    8 [32m+[m
+ README.md                                          |   32 [32m+[m
+ index.html                                         |   19 [32m+[m
+ package-lock.json                                  | 2280 [32m++++++++++++++++++++[m
+ package.json                                       |   30 [32m+[m
+ postcss.config.js                                  |    5 [32m+[m
+ public/favicon.svg                                 |    1 [32m+[m
+ public/icons.svg                                   |   24 [32m+[m
+ src/App.tsx                                        |   56 [32m+[m
+ src/assets/images/logo.png                         |  Bin [31m0[m -> [32m803112[m bytes
+ src/components/auth/AuthSplitLayout.tsx            |   58 [32m+[m
+ src/components/hq/HQLayout.tsx                     |   70 [32m+[m
+ src/components/hq/RecordTable.tsx                  |   56 [32m+[m
+ src/components/icons/Icons.tsx                     |  185 [32m++[m
+ src/components/manager/DashboardOverview.tsx       |  168 [32m++[m
+ src/components/manager/EmergencyModal.tsx          |  145 [32m++[m
+ src/components/manager/ManagerLayout.tsx           |   17 [32m+[m
+ src/components/manager/PhotoLightbox.tsx           |   51 [32m+[m
+ src/components/manager/RecordsTable.tsx            |   73 [32m+[m
+ src/components/manager/Sidebar.tsx                 |   83 [32m+[m
+ src/components/manager/SiteManagementHeader.tsx    |   41 [32m+[m
+ src/components/manager/SiteTabs.tsx                |   38 [32m+[m
+ src/components/manager/TeamDetailModal.tsx         |   59 [32m+[m
+ src/components/manager/TeamStatusCard.tsx          |   58 [32m+[m
+ src/components/ui/ConfirmDialog.tsx                |   49 [32m+[m
+ src/components/ui/ThemeToggleButton.tsx            |   26 [32m+[m
+ src/components/ui/Toast.tsx                        |   54 [32m+[m
+ src/index.css                                      |  116 [32m+[m
+ src/main.tsx                                       |   19 [32m+[m
+ ...01\254\353\246\254\354\212\244\355\212\270.tsx" |   27 [32m+[m
+ ...31\225\354\235\270\353\252\250\353\213\254.tsx" |   27 [32m+[m
+ ...6\254_\355\214\200\352\264\200\353\246\254.tsx" |   10 [32m+[m
+ ...13\234\352\260\204\354\204\244\354\240\225.tsx" |   82 [32m+[m
+ ...63\204\354\240\225\354\204\244\354\240\225.tsx" |  111 [32m+[m
+ ...4\200\353\246\254_\354\202\254\353\263\270.tsx" |  178 [32m++[m
+ ...32\214\354\233\220\352\260\200\354\236\205.tsx" |   86 [32m+[m
+ ...2\254_\353\241\234\352\267\270\354\235\270.tsx" |   67 [32m+[m
+ ...01\254\353\246\254\354\212\244\355\212\270.tsx" |   74 [32m+[m
+ ...13\234\352\260\204\354\204\244\354\240\225.tsx" |  127 [32m++[m
+ ...4\244\354\240\225_\354\202\254\353\263\270.tsx" |   80 [32m+[m
+ ...54\270\354\235\230\355\225\230\352\270\260.tsx" |   90 [32m+[m
+ src/pages/screens/ScreenHQAccount.tsx              |   21 [32m+[m
+ src/pages/screens/ScreenHQDashboard.tsx            |   61 [32m+[m
+ src/pages/screens/ScreenHQLogin.tsx                |   35 [32m+[m
+ src/pages/screens/ScreenHQRecords.tsx              |   31 [32m+[m
+ src/pages/screens/ScreenHQSignup.tsx               |   44 [32m+[m
+ src/pages/screens/ScreenHQSiteDetail.tsx           |   26 [32m+[m
+ src/pages/screens/ScreenHQSites.tsx                |   54 [32m+[m
+ src/screens.config.ts                              |   33 [32m+[m
+ src/theme/ThemeContext.tsx                         |   37 [32m+[m
+ tsconfig.app.json                                  |   26 [32m+[m
+ tsconfig.json                                      |    7 [32m+[m
+ tsconfig.node.json                                 |   23 [32m+[m
+ vite.config.ts                                     |    7 [32m+[m
+ 55 files changed, 5207 insertions(+)
